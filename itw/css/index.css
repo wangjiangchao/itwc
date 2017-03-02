@@ -1,0 +1,223 @@
+@charset "utf-8";
+a{
+	color:#000;
+}
+.header {
+	width: 100%;
+	box-sizing: border-box;
+	padding:2% 6% 27px; 
+	position: relative;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=white, endColorStr=#e0e0e0);
+	/*IE 6 7 8*/	
+	background: -ms-linear-gradient(left, #fff, #e0e0e0);
+	/* IE 10 */	
+	background:-moz-linear-gradient(left, #fff, #e0e0e0);
+	/*火狐*/	
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#e0e0e0));
+	/*谷歌*/	
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#e0e0e0));
+	/* Safari 4-5, Chrome 1-9*/	
+	background: -webkit-linear-gradient(left, #fff, #e0e0e0);
+	/*Safari5.1 Chrome 10+*/	
+	background: -o-linear-gradient(left, #fff, #e0e0e0);
+	/*Opera 11.10+*/	
+}
+.logo{
+	display: block;
+	float:left;
+}
+.logo>img{
+	width:100%;
+	height:auto;
+}
+.logo_right{
+	float:right;
+	margin-top: 10px;
+	font-size:17px;
+	color:#767676;
+	font-family:"黑体";
+}
+.egqh{
+	position: absolute;
+	right:6%;top:10px;
+	font-size:12px;
+	color:#000;
+	font-weight: 600;
+}
+.zj{
+	width:100%;
+	height:auto;
+}
+.zj-left{
+	width:61.25%;
+	height:auto;
+	float:left;
+	overflow: hidden;
+}
+.zj-left>img{
+	width:100%;
+	height:auto;
+	display: block;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s; /* Firefox 4 */
+	-webkit-transition: all 0.4s; /* Safari 和 Chrome */
+	-o-transition: all 0.4s; /* Opera */
+	-ms-transition: all 0.4s;
+}
+.zj-right{
+	width:38.75%;
+	height:auto;
+	float: right;
+}
+.zj-right>a{
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.right_wz1>img{
+	width:100%;
+	height:auto;
+	display: block;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s; /* Firefox 4 */
+	-webkit-transition: all 0.4s; /* Safari 和 Chrome */
+	-o-transition: all 0.4s; /* Opera */
+	-ms-transition: all 0.4s;
+}
+.right_wz2>img{
+	width:100%;
+	height:auto;
+	display: block;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s; /* Firefox 4 */
+	-webkit-transition: all 0.4s; /* Safari 和 Chrome */
+	-o-transition: all 0.4s; /* Opera */
+	-ms-transition: all 0.4s;
+}
+.wenzi1{
+	position: absolute;
+	left:8%;top:35%;
+	z-index: 10;
+	font-size:30px;
+	color:#fff;
+	font-family: "franklin gothic medium";
+}
+.wenzi2{
+	position: absolute;
+	left:8%;top:50%;
+	z-index: 10;
+	font-size:20px;
+	color:#fff;
+	font-family: "franklin gothic medium";
+}
+.wenzi3{
+	position: absolute;
+	left:8%;top:50%;
+	z-index: 10;
+	font-size:30px;
+	color:#fff;
+	font-family: "franklin gothic medium";
+}
+.sanjiao1,.sanjiao2{
+	width: 0px;
+	height: 0px;
+	display: block;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #841b22;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: -16px;top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%) 
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);;;
+}
+.zj-left:hover img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);		/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari and Chrome */
+	-o-transform: scale(1.1);		/* Opera */
+	-moz-transform: scale(1.1);		/* Firefox */
+}
+.right_wz1:hover img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);		/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari and Chrome */
+	-o-transform: scale(1.1);		/* Opera */
+	-moz-transform: scale(1.1);		/* Firefox */
+}
+.right_wz2:hover img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);		/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari and Chrome */
+	-o-transform: scale(1.1);		/* Opera */
+	-moz-transform: scale(1.1);		/* Firefox */
+}
+.neirong{
+	width:100%;
+	box-sizing: border-box;
+	padding:25px 6% ;
+	background:#e5e5e5;
+}
+.neirong>h3{
+	font-family: "franklin gothic medium";
+	font-size:30px;
+}
+.neirong>p{
+	font-family: "franklin gothic book";
+	padding-right: 10%;
+	margin-top: 10px;
+	font-size:18px;
+}
+.neirong>a{
+	display: block;
+	width:200px;
+	height:30px;
+	background:#fff;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+	text-decoration: none;
+	font-family: "franklin gothic medium";
+}
+.footer{
+	width:100%;
+	box-sizing: border-box;
+	padding:15px 6%;
+}
+.footer>p{
+	width:370px;
+	color:#8f8d8f;
+	display: inline-block;
+	font-family: arial;
+	font-size: 12px;
+}
+.footer>div{
+	float: right;
+	margin-top: 5px;
+}
+.footer>div>a{
+	display: block;	
+	width: 26px;
+	height:24px;
+	background:url(../img/index-img/index_03.png) no-repeat;
+}
+.btn222{
+	position: relative;
+}
+.sanjiao3{
+	width: 0px;
+	height: 0px;
+	display: block;
+    border-top: 4px solid transparent;
+    border-left: 8px solid #841b22;
+    border-bottom: 4px solid transparent;
+	position: absolute;
+	left: 10px;top:50%;
+	moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%)
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+.header{
+	padding-bottom:10px;
+}
+.sanjiao1{
+    border-top: 3px solid transparent;
+    border-left: 6px solid #841b22;
+    border-bottom: 3px solid transparent;
+    left:-8px;
+}
+.logo_right{
+	width:100%;
+	font-size:12px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.wenzi1{
+	font-size:13px;
+	top:45%;
+}
+.wenzi2{
+	display: none;
+}
+.wenzi3{
+	font-size:13px;
+	top:48%;
+}
+.sanjiao2{
+    border-top: 3px solid transparent;
+    border-left: 6px solid #841b22;
+    border-bottom: 3px solid transparent;
+    left:-8px;
+}
+.neirong>a{
+	width:140px;
+	font-size: 13px;
+}
+.neirong>h3{
+	font-family: arial ;
+	font-size:12px;
+	font-weight: 600;
+}
+.neirong>p{
+	font-family: arial ; 
+	font-size:10px;
+}
+.footer>p{
+	width:80%;
+}
+.footer>div{
+	margin-top: 5px;
+}
+.sanjiao3{
+	border-top: 3px solid transparent;
+    border-left: 6px solid #841b22;
+    border-bottom: 3px solid transparent;
+    left: 3px;
+}

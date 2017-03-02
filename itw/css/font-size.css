@@ -1,0 +1,59 @@
+@font-face {font-family: "franklin gothic medium";
+	src:url('../font/Franklin Gothic Medium.ttf') format('truetype');
+}
+
+@font-face {font-family: "Franklin Gothic Book";
+	src:url('../font/Franklin Gothic Book.ttf') format('truetype');
+}
+
+
+
+@media only screen and (min-width:1024px){
+	.biaoti_size{
+		font-family: "franklin gothic medium";
+		font-size: 30px;
+	}
+	.neirong{
+		font-family: "franklin gothic book";
+		font-size: 18px;
+	
+	}
+}
+@media only screen and (min-width:720px) and (max-width:1023px) {
+	
+	.biaoti_size{
+		font-family: "franklin gothic medium";
+		font-size:20px;
+	}
+	.neirong{
+		font-family: "franklin gothic book";
+		font-size:14px;
+	
+	}
+	
+}
+@media only screen and (min-width:370px) and (max-width:719px) {
+	.biaoti_size{
+		font-family: arial;
+		font-size:14px;
+		font-weight:600;
+	}
+	.neirong{
+		font-family: arial;
+		font-size: 12px;
+	
+	}
+}
+
+@media only screen and (max-width:369px) and (min-width:319px) {
+	.biaoti_size{
+		font-family: arial;
+		font-size:12px;
+		font-weight: 600;
+	}
+	.neirong{
+		font-family: arial;
+		font-size: 10px;
+	
+	}
+}

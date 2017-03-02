@@ -1,0 +1,28 @@
+@charset "utf-8";
+.sanjiao1{
+    border-top: 4px solid transparent;
+    border-left: 8px solid #841b22;
+    border-bottom: 4px solid transparent;
+}
+.wenzi1{
+	font-size:20px;
+	top:52%;
+}
+.wenzi2{
+	display: none;
+}
+.wenzi3{
+	font-size:20px;
+	top:42%;
+}
+.sanjiao2{
+    border-top: 4px solid transparent;
+    border-left: 8px solid #841b22;
+    border-bottom: 4px solid transparent;
+}
+.neirong>h3{
+	font-size:20px;
+}
+.neirong>p{
+	font-size:14px;
+}
